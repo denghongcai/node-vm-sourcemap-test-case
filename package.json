@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rm -rf dist && tsc --project tsconfig.json",
+    "test": "node test.js",
+    "inspect": "node --inspect-brk test.js",
+    "inspect-index": "node --inspect-brk test-map.js"
+  },
+  "dependencies": {
+    "convert-source-map": "^1.7.0",
+    "typescript": "^3.9.7"
+  }
+}
